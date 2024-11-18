@@ -359,9 +359,10 @@ footer {
 
 footer .footer-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
     gap: 10px;
 }
 
@@ -401,9 +402,6 @@ footer .footer-box .footer-logo a:hover {
     color: var(--button-hover-color);
 }
 /* footer end */
-* {
-    /* border: 1px solid black; */
-}
 
 /* project end */
 
@@ -440,7 +438,7 @@ footer .footer-box .footer-logo a:hover {
     }
 
     .project .project-box .project-img {
-        width: 60%;
+        width: 90%;
     }
 }
 /* responsive end */
